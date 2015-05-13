@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 14pt;
+}
+
+.title {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #BCBBBB;
+}
+
+.title img {
+    float: left;
+}
+
+.large-image {
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.title h1, .title h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+/* clearfix implementation copied from https://css-tricks.com/snippets/css/clear-fix/ */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
