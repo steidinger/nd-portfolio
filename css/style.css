@@ -31,11 +31,10 @@ body {
     text-transform: uppercase;
 }
 .developer-name {
-    font-size: 40px;
-    margin-bottom: -1rem;
+    font-size: 24px;
 }
 .developer-title {
-    font-size: 24px;
+    font-size: 14px;
 }
 .featured h2 {
     color: #BCBBBB;
@@ -81,22 +80,28 @@ body {
   clear: both;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 640px) and (max-width: 1024px) {
     .developer-name {
-        font-size: 24px;
-        margin-bottom: 0;
+        font-size: 40px;
+        margin-bottom: -1rem;
     }
     .developer-title {
-        font-size: 14px;
+        font-size: 24px;
     }
     .project {
         width: 45%;
         max-width: 45%;
     }
 }
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 1024px) {
+    .developer-name {
+        font-size: 40px;
+        margin-bottom: -1rem;
+    }
+    .developer-title {
+        font-size: 24px;
+    }
     .project {
-        width: auto;
-        max-width: none;
+        max-width: 30%;
     }
 }
