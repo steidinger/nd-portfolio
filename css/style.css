@@ -3,13 +3,14 @@
 }
 
 body {
-    font-family: Verdana, sans-serif;
+    font-family: 'Titillium Web',Verdana, sans-serif;
     font-size: 14pt;
+    min-width: 1024px;
 }
 
 .title {
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #BCBBBB;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #BCBBBB;
 }
 
 .title img {
@@ -17,17 +18,59 @@ body {
 }
 
 .large-image {
-    height: 300px;
+    width: 100%;
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
 
-.title h1, .title h2 {
+.developer-name, .developer-title {
     margin: 0;
     padding: 0;
     font-weight: 100;
     text-align: right;
     text-transform: uppercase;
+}
+.developer-name {
+    font-size: 40px;
+    margin-bottom: -1rem;
+}
+.developer-title {
+    font-size: 24px;
+}
+.featured h2 {
+    color: #BCBBBB;
+    margin: 0;
+    padding: 0;
+}
+
+.featured .projects {
+    list-style: none;
+    padding: 0;
+    margin: 0 -1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    margin: 0 1rem;
+    min-width: 320px;
+}
+.project-title {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0;
+    margin: 0.5rem 0 0.2rem 0;
+    color: #747704;
+}
+.project-image {
+    width: 100%;
+}
+.project-link, .project-link:visited {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #BCBBBB;
+    font-size: 12px;
 }
 
 /* clearfix implementation copied from https://css-tricks.com/snippets/css/clear-fix/ */
