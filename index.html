@@ -17,27 +17,31 @@
             <h2 class="developer-title">Front-End Developer</h2>
         </header>
         <main>
-        <img class="large-image" src="images/html.png" alt="Screenshot">
-        <section class="featured">
-            <h2>Featured Work</h2>
-            <ul class="projects">
-            <li class="project">
-                <img class="project-image" src="images/project1.jpg" alt="Project 1">
-                <h3 class="project-title">HDR Photography</h3>
-                <a class="project-link" href="https://www.flickr.com/photos/26598043@N00/tags/hdr/">www.flickr.com/photos/26598043@N00/tags/hdr/</a>
-            </li>
-            <li class="project">
-                <img class="project-image" src="images/project2.jpg" alt="Project 2">
-                <h3 class="project-title">Insects</h3>
-                <a class="project-link" href="https://www.flickr.com/photos/26598043@N00/tags/insect/">www.flickr.com/photos/26598043@N00/tags/insect/</a>
-            </li>
-            <li class="project">
-                <img class="project-image" src="images/project3.jpg" alt="Project 3">
-                <h3 class="project-title">Flowers</h3>
-                <a class="project-link" href="https://www.flickr.com/photos/26598043@N00/tags/blume/">www.flickr.com/photos/26598043@N00/tags/blume/</a>
-            </li>
-            </ul>
-        </section>
+            <picture class="large-image">
+                <source srcset="images/html-2x.jpg" media="(min-width: 1024px)">
+                <source srcset="images/html-1x.jpg 1x, images/html-2x.jpg 2x">
+                <img class="large-image" src="images/html-1x.jpg" alt="Screenshot">
+            </picture>
+            <section class="featured">
+                <h2>Featured Work</h2>
+                <ul class="projects">
+                <li class="project">
+                    <img class="project-image" src="images/project1.jpg" alt="Project 1">
+                    <h3 class="project-title">HDR Photography</h3>
+                    <a class="project-link" href="https://www.flickr.com/photos/26598043@N00/tags/hdr/">www.flickr.com/photos/26598043@N00/tags/hdr/</a>
+                </li>
+                <li class="project">
+                    <img class="project-image" src="images/project2.jpg" alt="Project 2">
+                    <h3 class="project-title">Insects</h3>
+                    <a class="project-link" href="https://www.flickr.com/photos/26598043@N00/tags/insect/">www.flickr.com/photos/26598043@N00/tags/insect/</a>
+                </li>
+                <li class="project">
+                    <img class="project-image" src="images/project3.jpg" alt="Project 3">
+                    <h3 class="project-title">Flowers</h3>
+                    <a class="project-link" href="https://www.flickr.com/photos/26598043@N00/tags/blume/">www.flickr.com/photos/26598043@N00/tags/blume/</a>
+                </li>
+                </ul>
+            </section>
         </main>
     </body>
 </html>
